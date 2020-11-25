@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+ul, li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{vertical-align: middle; border: none;}
+
+.header{background:#EBC57C; position: relative; width: 50%;}
+.header>div{width: 1800px; height: 175px; justify-content: space-between; align-items: center; border-bottom: 5px solid #EBC57C;}
+.container{margin: 0 auto;}
+
+h1{color: #fff; text-shadow: 2px 4px 2px #000; font-family: '굴림';}
+
+.logo a{display: block;}
+.logo a img{width: 100px; height: auto; margin-left: 120px; margin-top: 45px; float: left; margin-right: 20px;}
+
+h3{color: #fff; font-size: 40px; font-weight: normal; margin-top: 40px; text-shadow: 1px 1px 1px #000;}
+h4{color: #fff; font-weight: normal; line-height: 30px; float: left; text-shadow: 1px 1px 1px #000; font-size: 20px;}
+
+.menu a{display: block; transition: 0.5s;}
+.menu>ul{display: flex; float: right;}
+
+.menu>ul>li{position: relative;}
+.menu>ul>li>a{padding: 0 40px; font-size: 17px; color: #000; line-height: 45px;}
+.menu>ul>li:hover>a{color: #fff; background: #510193;}
+
+.menu>ul>li>ul{position: absolute; left: 0; right: 0; display: none; z-index: 10;}
+.menu>ul>li>ul>li>a{line-height: 45px; text-align: center; background: #EBC57C; color: #fff;}
+.menu>ul>li>ul a:hover{color: #514034; background-color: #fff;}
+
+.b1{width: 100%; height: 200px; position: fixed; opacity: 0.7; background-color: #EDEBEC;}
+.b2{width: 100%; height: 800px; position: fixed; opacity: 0.4; background-color: #E0DCDE; position: relative;}
+.bg_img{
+    width: 30%; height: 60%;
+    position:fixed; right: 0; bottom: 0; 
+}
